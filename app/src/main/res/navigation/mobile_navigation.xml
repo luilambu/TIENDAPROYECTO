@@ -27,4 +27,9 @@
         android:name="com.example.tiendaproyecto.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.tiendaproyecto.SplashScreenActivity"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
 </navigation>
