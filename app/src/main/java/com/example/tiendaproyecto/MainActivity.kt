@@ -12,6 +12,10 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tiendaproyecto.databinding.ActivityMainBinding
+import com.google.firebase.auth.FirebaseAuth
+
+
+
 
 class MainActivity : AppCompatActivity() {
 

@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_width="304dp"
-        android:layout_height="26dp"
+        android:layout_width="309dp"
+        android:layout_height="57dp"
         android:layout_marginTop="10dp"
-        android:text="La tienda donde comprar vale menos"
+        android:text="@string/slogan"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,21 +21,26 @@
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="409dp"
-        android:layout_height="195dp"
+        android:layout_width="324dp"
+        android:layout_height="91dp"
         android:layout_marginTop="10dp"
+        android:accessibilityLiveRegion="assertive"
+        android:animationCache="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="200dp"
         android:layout_height="154dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="logo"
         android:src="@drawable/icono"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,11 +52,37 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Visita nuestras instalaciones:"
-        android:textColor="#F86435"
+        android:text="@string/invitacion"
+        android:textColor="#DD2C00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="225dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/contactoTitulo"
+        android:textAlignment="center"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="198dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/contactoInfo"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

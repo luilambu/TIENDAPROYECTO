@@ -13,4 +13,8 @@
     <string name="menu_login">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slogan">La tienda donde comprar vale menos</string>
+    <string name="invitacion">Visita nuestras instalaciones:</string>
+    <string name="contactoTitulo">Contactanos</string>
+    <string name="contactoInfo">356-6845-5612 \n Bogota, Calle #XX No.XX</string>
 </resources>
