@@ -3,6 +3,7 @@
     package="com.example.tiendaproyecto">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,7 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TIENDAPROYECTO">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ui.activities.LoginActivity"
+            android:theme="@style/Theme.TIENDAPROYECTO.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.SplashScreenActivity"
             android:theme="@style/Theme.TIENDAPROYECTO.NoActionBar">
             android:exported="true">
             <intent-filter>
@@ -20,11 +25,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TIENDAPROYECTO.NoActionBar">
-
+            \\Branch LF
         </activity>
     </application>
 

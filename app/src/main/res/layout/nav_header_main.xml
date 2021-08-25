@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Menu"
+        android:text="Menú"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="#0C0000"

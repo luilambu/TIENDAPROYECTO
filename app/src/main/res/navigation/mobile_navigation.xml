@@ -7,13 +7,23 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.tiendaproyecto.ui.home.HomeFragment"
+        android:name="com.example.tiendaproyecto.ui.fragments.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_home_to_profileFragment"
+            app:destination="@id/nav_profile" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.tiendaproyecto.ui.gallery.GalleryFragment"
+        android:name="com.example.tiendaproyecto.ui.fragments.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
@@ -23,13 +33,17 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.tiendaproyecto.LoginFragment"
+        android:id="@+id/nav_login"
+        android:name="com.example.tiendaproyecto.ui.fragments.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
-    <activity
-        android:id="@+id/splashScreenActivity"
-        android:name="com.example.tiendaproyecto.SplashScreenActivity"
-        android:label="activity_splash_screen"
-        tools:layout="@layout/activity_splash_screen" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.tiendaproyecto.ui.fragments.ProfileFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

@@ -1,10 +1,9 @@
-package com.example.tiendaproyecto
+package com.example.tiendaproyecto.ui.activities
 
 import android.animation.Animator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.animation.Animation
 import com.example.tiendaproyecto.databinding.ActivitySplashScreenBinding
 
 class SplashScreenActivity : AppCompatActivity() {
