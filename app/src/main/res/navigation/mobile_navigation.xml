@@ -25,8 +25,18 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.tiendaproyecto.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_lista"
+        android:name="com.example.tiendaproyecto.ListFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_lista" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.tiendaproyecto.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
     <activity
         android:id="@+id/splashScreenActivity"
         android:name="com.example.tiendaproyecto.SplashScreenActivity"

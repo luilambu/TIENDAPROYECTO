@@ -9,12 +9,15 @@
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/drawable/ic_menu_camera.xml" value="0.221875" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.22135416666666666" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/drawable/side_nav_bar.xml" value="0.24814814814814815" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/content_main.xml" value="0.2611111111111111" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_lista.xml" value="0.36666666666666664" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.14351851851851852" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
