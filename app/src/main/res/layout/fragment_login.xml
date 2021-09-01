@@ -5,7 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".LoginFragment">
+    tools:context=".ui.fragments.LoginFragment">
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingTop="@dimen/fragment_vertical_margin"
+    android:paddingRight="@dimen/fragment_horizontal_margin"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    tools:context=".ui.fragments.LoginFragment">
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
@@ -61,10 +66,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" /><![CDATA[
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <![CDATA[
 
     /* android:background="@drawable/button_social" */
     app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 
     ]]>
 

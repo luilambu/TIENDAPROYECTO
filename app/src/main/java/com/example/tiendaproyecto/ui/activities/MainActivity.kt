@@ -1,4 +1,4 @@
-package com.example.tiendaproyecto
+package com.example.tiendaproyecto.ui.activities
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,11 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.tiendaproyecto.R
 import com.example.tiendaproyecto.databinding.ActivityMainBinding
-import com.google.firebase.auth.FirebaseAuth
-
-
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Acción de envío de correos todavía no habilitada", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
