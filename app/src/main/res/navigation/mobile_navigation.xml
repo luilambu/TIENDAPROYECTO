@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_nav_home_to_profileFragment"
             app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_loginFragment"
+            app:destination="@id/nav_login" />
     </fragment>
 
     <fragment
@@ -57,4 +60,13 @@
         android:name="com.example.tiendaproyecto.ui.activities.SplashScreenActivity"
         android:label="activity_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.tiendaproyecto.ui.fragments.LoginFragment"
+        android:label="Inicio de sesión"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_nav_login_self"
+            app:popUpTo="@id/nav_login" />
+    </fragment>
 </navigation>

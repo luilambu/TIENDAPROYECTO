@@ -6,6 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.tiendaproyecto.databinding.FragmentLoginBinding
+import android.widget.Toast
+
+import com.example.tiendaproyecto.ui.activities.MainActivity
+import com.firebase.ui.auth.AuthUI.getApplicationContext
 
 
 class LoginFragment : Fragment() {
