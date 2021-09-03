@@ -1,5 +1,7 @@
 package com.example.tiendaproyecto.ui.activities
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.Menu
 import com.google.android.material.snackbar.Snackbar
@@ -11,14 +13,19 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.lifecycle.ViewModelProvider
 import com.example.tiendaproyecto.R
 import com.example.tiendaproyecto.databinding.ActivityMainBinding
+import com.example.tiendaproyecto.ui.viewmodel.ListViewModel
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
+    private val viewModel by lazy { ViewModelProvider(this).get(ListViewModel::class.java)}
+    private val REQUEST_PERMISSIONS = 100;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -54,5 +61,40 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+    //aqui hace le map
+    override fun onStart(){
+        super.onStart()
+        checkPermissions()
+    }
+    private fun checkPermissions() {
+        if (ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.ACCESS_FINE_LOCATION)!=PackageManager.PERMISSION_GRANTED
+            || ContextCompat.checkSelfPermission(applicationContext,Manifest.permission.ACCESS_NETWORK_STATE)!=PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_NETWORK_STATE),
+                REQUEST_PERMISSIONS
+            )
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        val permissionsToRequest = ArrayList<String>();
+        var i = 0;
+        while (i < grantResults.size){
+            permissionsToRequest.add(permissions[i]);
+            i++;
+        }
+        if (permissionsToRequest.size>0){
+            ActivityCompat.requestPermissions(
+                this,
+                permissionsToRequest.toTypedArray(),
+                REQUEST_PERMISSIONS)
+        }
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
 }

@@ -13,7 +13,7 @@
             android:icon="@drawable/ic_menu_profile"
             android:title="@string/menu_perfil" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/listActivity"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
@@ -21,7 +21,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_lista"
+            android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
 

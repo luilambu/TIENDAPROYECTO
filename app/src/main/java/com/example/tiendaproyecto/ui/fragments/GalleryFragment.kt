@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.tiendaproyecto.databinding.FragmentGalleryBinding
-import com.example.tiendaproyecto.ui.gallery.GalleryViewModel
+import com.example.tiendaproyecto.ui.viewmodel.GalleryViewModel
 
 class GalleryFragment : Fragment() {
 

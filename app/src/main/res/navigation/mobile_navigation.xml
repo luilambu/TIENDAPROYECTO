@@ -11,9 +11,6 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_nav_home_to_nav_gallery"
-            app:destination="@id/nav_gallery" />
-        <action
             android:id="@+id/action_nav_home_to_nav_slideshow"
             app:destination="@id/nav_slideshow" />
         <action
@@ -22,13 +19,11 @@
         <action
             android:id="@+id/action_nav_home_to_loginFragment"
             app:destination="@id/nav_login" />
-    </fragment>
+        <action
+            android:id="@+id/action_nav_home_to_nav_list"
+            app:destination="@id/nav_list" />
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.tiendaproyecto.ui.fragments.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -36,10 +31,10 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/nav_lista"
-        android:name="com.example.tiendaproyecto.ListFragment"
+        android:id="@+id/nav_list"
+        android:name="com.example.tiendaproyecto.ui.ListFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_lista" />
+        tools:layout="@layout/fragment_list" />
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.tiendaproyecto.RegisterFragment"
@@ -69,4 +64,8 @@
             android:id="@+id/action_nav_login_self"
             app:popUpTo="@id/nav_login" />
     </fragment>
+    <activity
+        android:id="@+id/listActivity"
+        android:name="com.example.tiendaproyecto.ui.activities.ListActivity"
+        android:label="ListActivity" />
 </navigation>

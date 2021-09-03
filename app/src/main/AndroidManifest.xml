@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tiendaproyecto">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -10,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TIENDAPROYECTO">
+        <activity
+            android:name=".ui.activities.ListActivity"
+            android:theme="@style/Theme.TIENDAPROYECTO.NoActionBar"
+            android:exported="true" />
         <activity
             android:name=".ui.activities.LoginActivity"
             android:theme="@style/Theme.TIENDAPROYECTO.NoActionBar"
