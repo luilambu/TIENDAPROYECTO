@@ -43,7 +43,7 @@ class SignUpActivity : AppCompatActivity() {
                 Toast.makeText(baseContext, "Ingrese un correo electrónico válido.",
                     Toast.LENGTH_SHORT).show()
             } else if (mPassword.isEmpty() || !passwordRegex.matcher(mPassword).matches()){
-                Toast.makeText(baseContext, "La contraseña es débil.",
+                Toast.makeText(baseContext, "La contraseña debe tener al menos (una letra mayúscula, 1 caracter especial y seis o mas caracteres)",
                     Toast.LENGTH_SHORT).show()
             } else if (mPassword != mRepeatPassword) {
                 Toast.makeText(baseContext, "Confirma la contraseña.",

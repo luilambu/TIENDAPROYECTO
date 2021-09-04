@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Proyecto Tienda de Luis</string>
+    <string name="app_name">La Tienda de Lucho</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -13,7 +13,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="slogan">La tienda donde comprar vale menos</string>
+    <string name="slogan">Regístrate y obtén 5% de descuento en nuestra tienda.  </string>
     <string name="invitacion">Visita nuestras instalaciones:</string>
     <string name="contactoTitulo">Contáctanos</string>
     <string name="contactoInfo">356-6845-5612 \n Bogota, Calle #XX No.XX</string>

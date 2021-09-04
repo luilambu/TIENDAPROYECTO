@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.example.tiendaproyecto.databinding.ActivityEntradaBinding
+import com.example.tiendaproyecto.ui.activities.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
@@ -119,7 +120,7 @@ class EntradaActivity : AppCompatActivity() {
     private fun signOut(){
         Firebase.auth.signOut()
         //redireccionar a la actividad inicio de sesión
-        val intent = Intent(this, SignInActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 

@@ -34,7 +34,7 @@ class UpdatePasswordActivity : AppCompatActivity() {
                 val repeatPassword = binding.repeatPasswordEditText.text.toString()
 
             if (newPassword.isEmpty() || !passwordRegex.matcher(newPassword).matches()){
-                Toast.makeText(this, "La contraseña es debil.",
+                Toast.makeText(this, "La contraseña debe tener al menos (una letra mayúscula, 1 caracter especial y seis o mas caracteres)",
                     Toast.LENGTH_SHORT).show()
             } else if (newPassword != repeatPassword){
                 Toast.makeText(this, "Confirma la contraseña.",

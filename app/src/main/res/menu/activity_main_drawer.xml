@@ -6,10 +6,10 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_mapmode"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/entradaActivity"
+            android:id="@+id/signInActivity"
             android:icon="@drawable/ic_menu_profile"
             android:title="@string/menu_perfil" />
         <item
@@ -19,16 +19,12 @@
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Ingresar Comentarios" />
+            android:title="Comentar" />
         <item
             android:id="@+id/comentListActivity"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="comentarios" />
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ver Comentarios" />
 
-        <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/ic_menu_logout"
-            android:title="Logout"/>
 
     </group>
 </menu>

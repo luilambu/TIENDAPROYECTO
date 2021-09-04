@@ -18,7 +18,7 @@
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/activity_update_password.xml" value="0.16018518518518518" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/coment_row.xml" value="0.20833333333333334" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/coment_row.xml" value="0.5" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/content_main.xml" value="0.2611111111111111" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_Coment.xml" value="0.25" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_Comment.xml" value="0.1" />
@@ -26,18 +26,19 @@
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_coment_list.xml" value="0.20833333333333334" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_gallery.xml" value="0.33" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_list.xml" value="0.20625" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_list.xml" value="0.33" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_lista.xml" value="0.24444444444444444" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_register.xml" value="0.25" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/fragment_slideshow.xml" value="0.14351851851851852" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/item_row.xml" value="0.22" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/item_row.xml" value="0.33" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/item_row_load.xml" value="0.1" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/layout/recycler_view_item.xml" value="0.20625" />
-        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/luis/ciclo 4 mintic/TIENDAPROYECTO/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

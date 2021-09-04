@@ -14,12 +14,6 @@
             android:id="@+id/action_nav_home_to_nav_slideshow"
             app:destination="@id/nav_slideshow" />
         <action
-            android:id="@+id/action_nav_home_to_profileFragment"
-            app:destination="@id/nav_profile" />
-        <action
-            android:id="@+id/action_nav_home_to_loginFragment"
-            app:destination="@id/nav_login" />
-        <action
             android:id="@+id/action_nav_home_to_comentListActivity"
             app:destination="@id/comentListActivity" />
         <action
@@ -34,42 +28,23 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.tiendaproyecto.ui.coment.ComentFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_coment" />
+        android:label="Comentarios"
+        tools:layout="@layout/fragment_coment"/>
     <!-- <fragment
         android:id="@+id/nav_list"
         android:name="com.example.tiendaproyecto.ui."
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_list" />-->
-    <fragment
-        android:id="@+id/registerFragment"
-        android:name="com.example.tiendaproyecto.RegisterFragment"
-        android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
 
     <action
             android:id="@+id/action_loginFragment_to_nav_home"
             app:destination="@id/nav_home" />
 
-    <fragment
-        android:id="@+id/nav_profile"
-        android:name="com.example.tiendaproyecto.ui.fragments.ProfileFragment"
-        android:label="@string/menu_perfil"
-        tools:layout="@layout/fragment_profile" />
     <activity
         android:id="@+id/splashScreenActivity2"
         android:name="com.example.tiendaproyecto.ui.activities.SplashScreenActivity"
         android:label="activity_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
-    <fragment
-        android:id="@+id/nav_login"
-        android:name="com.example.tiendaproyecto.ui.fragments.LoginFragment"
-        android:label="Inicio de sesión"
-        tools:layout="@layout/fragment_login" >
-        <action
-            android:id="@+id/action_nav_login_self"
-            app:popUpTo="@id/nav_login" />
-    </fragment>
     <activity
         android:id="@+id/listActivity"
         android:name="com.example.tiendaproyecto.ui.activities.ListActivity"
@@ -85,10 +60,14 @@
         android:name="com.example.tiendaproyecto.ui.activities.ComentListActivity"
         android:label="ComentListActivity"
         tools:layout="@layout/fragment_coment_list"/>
-    <include app:graph="@navigation/login_nav_graph" />
     <activity
         android:id="@+id/entradaActivity"
         android:name="com.example.tiendaproyecto.EntradaActivity"
         android:label="activity_entrada"
+        tools:layout="@layout/activity_sign_in" />
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.tiendaproyecto.SignInActivity"
+        android:label="activity_sign_in"
         tools:layout="@layout/activity_sign_in" />
 </navigation>

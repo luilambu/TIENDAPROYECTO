@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.TIENDAPROYECTO" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FA7348</item>
-        <item name="colorPrimaryVariant">#F84209</item>
+        <item name="colorPrimary">#F4754C</item>
+        <item name="colorPrimaryVariant">#F89F84</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#FB6C3F</item>
