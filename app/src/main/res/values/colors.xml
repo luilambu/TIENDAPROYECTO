@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="productos">#f08080</color>
     <color name="placeholder_bg">#dddddd</color>
+    <color name="black_500">#262626</color>
+
 </resources>

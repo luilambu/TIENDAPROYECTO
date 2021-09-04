@@ -60,9 +60,13 @@ dependencies {
     implementation platform("com.google.firebase:firebase-bom:28.3.1")
     implementation "com.airbnb.android:lottie:3.4.0"
     testImplementation 'junit:junit:4.+'
+    implementation 'androidx.multidex:multidex:2.0.1'
+
 
     implementation platform('com.google.firebase:firebase-bom:28.3.1')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-firestore-ktx:23.0.3'
+    implementation 'com.google.firebase:firebase-database:20.0.1'
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
     implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
     

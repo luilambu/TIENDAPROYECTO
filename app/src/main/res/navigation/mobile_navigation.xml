@@ -20,21 +20,27 @@
             android:id="@+id/action_nav_home_to_loginFragment"
             app:destination="@id/nav_login" />
         <action
+            android:id="@+id/action_nav_home_to_comentListActivity"
+            app:destination="@id/comentListActivity" />
+        <action
+            android:id="@+id/action_nav_home_to_entradaActivity"
+            app:destination="@id/entradaActivity" />
+        <!--<action
             android:id="@+id/action_nav_home_to_nav_list"
-            app:destination="@id/nav_list" />
+            app:destination="@id/nav_list" />-->
 
     </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.tiendaproyecto.ui.slideshow.SlideshowFragment"
+        android:name="com.example.tiendaproyecto.ui.coment.ComentFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
+        tools:layout="@layout/fragment_coment" />
+    <!-- <fragment
         android:id="@+id/nav_list"
-        android:name="com.example.tiendaproyecto.ui.ListFragment"
+        android:name="com.example.tiendaproyecto.ui."
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_list" />
+        tools:layout="@layout/fragment_list" />-->
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.example.tiendaproyecto.RegisterFragment"
@@ -67,5 +73,22 @@
     <activity
         android:id="@+id/listActivity"
         android:name="com.example.tiendaproyecto.ui.activities.ListActivity"
-        android:label="ListActivity" />
+        android:label="ListActivity"
+        tools:layout="@layout/fragment_list"/>
+    <!--<fragment
+        android:id="@+id/comentListFragment"
+        android:name="ComentListFragment"
+        android:label="ComentListFragment"
+        tools:layout="@layout/fragment_coment_list"/>-->
+    <activity
+        android:id="@+id/comentListActivity"
+        android:name="com.example.tiendaproyecto.ui.activities.ComentListActivity"
+        android:label="ComentListActivity"
+        tools:layout="@layout/fragment_coment_list"/>
+    <include app:graph="@navigation/login_nav_graph" />
+    <activity
+        android:id="@+id/entradaActivity"
+        android:name="com.example.tiendaproyecto.EntradaActivity"
+        android:label="activity_entrada"
+        tools:layout="@layout/activity_sign_in" />
 </navigation>
