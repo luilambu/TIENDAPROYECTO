@@ -13,14 +13,14 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="slogan">Regístrate y obtén 5% de descuento en nuestra tienda.  </string>
+    <string name="slogan">Regístrate y obtén 5% de descuento en nuestra tienda.</string>
     <string name="invitacion">Visita nuestras instalaciones:</string>
     <string name="contactoTitulo">Contáctanos</string>
-    <string name="contactoInfo">356-6845-5612 \n Bogota, Calle #XX No.XX</string>
+    <string name="contactoInfo">356-6845-5612 \n Bogotá, Calle #XX No.XX</string>
     <string name="nombre_comentario">Tu nombre (opcional)</string>
     <string name="indica_comentar">Tu comentario</string>
     <string name="titulo_comentario">COMENTA</string>
-    <string name="invitacion_a_comentar">Deja tu opinion para la comunidad</string>
+    <string name="invitacion_a_comentar">Deja tu opinión para la comunidad</string>
     <string name="indica_id_comentario">nombre/id</string>
     <string name="indica_a_comentar">Comentario</string>
     <string name="verbo_comentar">Comentar</string>
@@ -43,15 +43,16 @@
     <string name="delete_account">Eliminar cuenta</string>
     <string name="change_password">Cambiar contraseña</string>
     <string name="forget_password">¿olvidaste tu contraseña?</string>
-    <string name="title_check_email">Verificacion de correo electrónico</string>
-    <string name="subtitle_check_email">Para completar su registro. ¡Por favor! verifica su correo electrónico y después de clic en continuar.</string>
+    <string name="title_check_email">Verificación de correo electrónico</string>
+    <string name="subtitle_check_email">Para completar su registro. ¡Por favor! verifica tu correo electrónico y después de clic en continuar.</string>
     <string name="continue_check_email">Continuar</string>
     <string name="title_account_recovery">Recuperación de la cuenta</string>
-    <string name="subtitle_account_recovery">Ingresa tu email para que se te pueda enviar un correo electrónico con los pasos para cambiar tu contraseña.</string>
+    <string name="subtitle_account_recovery">Ingresa tu email para enviarte un correo electrónico con los pasos para cambiar tu contraseña.</string>
     <string name="recovery_account">Enviar</string>
     <string name="title_update_password">Cambio de contraseña</string>
     <string name="subtitle_update_password">Por motivos de seguridad para cambiar tu contraseña, primero debes ingresar tu contraseña actual.</string>
     <string name="title_delete_account">Eliminar cuenta</string>
-    <string name="subtitle_delete_account">Por motivos de seguridad para eliminar tu cuenta por completo, debes de ingresar tu contraseña.</string>
+    <string name="subtitle_delete_account">Por motivos de seguridad para eliminar tu cuenta por completo, debes ingresar tu contraseña.</string>
     <string name="delete">Eliminar</string>
+    <string name="sign_up_label">Registro</string>
 </resources>

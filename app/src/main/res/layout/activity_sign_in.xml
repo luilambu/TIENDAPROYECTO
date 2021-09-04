@@ -20,8 +20,8 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:contentDescription="@string/all"
             app:srcCompat="@drawable/logo"
             tools:ignore="VectorDrawableCompat" />
@@ -33,7 +33,9 @@
             android:gravity="center"
             android:text="@string/title_active_login"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -132,8 +134,10 @@
             android:layout_marginRight="16dp"
             android:layout_weight="0"
             android:text="@string/link_signup"
-            android:textColor="#ff9900"
-            android:textSize="24sp" />
+            android:textColor="#f15e6a"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
